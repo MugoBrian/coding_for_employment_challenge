@@ -1,0 +1,83 @@
+<Doctype html> 
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+            <title> About Faidika Self Help Group </title>
+            <link rel="stylesheet" href="styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins&disp=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <section class="sub-header">
+               <nav> 
+                   <a href="index.html" class="faidika">Faidika Self Help Group </a> 
+                   <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                       <ul>
+                           <li><a href="index.html" >HOME </a></li>
+                           <li><a href="#"> ABOUT </a></li>
+                           <li><a href="contact.html"> CONTACT </a></li>
+                       </ul>
+                   </div>
+                   <i class="fa fa-bars"  aria-hidden="true" onclick="showMenu()"></i>
+                   </nav>
+                   <h1>About Us</h1>
+            </section>
+            <section class="about-us">
+                <div class="row">
+                    <div class="about-col">
+                        <h1> We Care About The Common Mwananchi <h1>
+                        <p> Faidika Self Help Group is a Small Scale and Medium Enterprise (SME) Business that has been operation for over 1 year now.</p>
+                        <p>The business seeks to help everyone especially the common mwananchi to get instant cash loan at very affordable rates. 
+                            So as to help the common mwananchi to improve themselves economically.</p>
+                         <p> We also deal in second hand goods. We buy electronics, tv sets, speakers,motorbikes,bicycles,laptops and many more at very good prices. 
+                         </p>
+                         <p>
+                         We also sell electronics,both brand new and second hand tv sets,household items at very cheap prices. 
+                         Our business deals are legit and offer receipts for every item you buy from us.
+                        </p>
+                        <h4> To View Our products.</h4><br>
+                        <a href="index.html" class="explore-btn"> EXPLORE NOW</a>
+                    </div>
+                    <div class="about-col">
+                        <img src="images/bg.jpg">
+                    </div>
+                </div>
+            </section>
+            <!-- Call To action-->
+            <section class="cta">
+                <h3> For Any Enquiries On Applying Loans,<br> Selling To Us Or <br> Buying our Goods</h3>
+                <a href="" class="visit-btn"> CONTACT US</a>
+            </section>
+            <!-- Footer -->
+            <section class="footer">
+                <h4> Follow On Us: </h4>
+                <p> To get the latest updates on our products and services 
+                    <br> Visit our on social media accounts and share our latest posts.
+                </p>
+                <div class="icons">
+                    <a href="facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="twitter.com/MugoBrian" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="youtube.com" target="_blank"></a><i class="fa fa-youtube"></i>
+                </div>
+                <p class="copy"> &copy; Copyright Konsyda Designs 2021.</p>
+            </section>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                var bars = document.querySelector(".fa-bars");
+                function showMenu(){
+                    navLinks.style.right = "0";
+                    bars.style.display = "none";
+                }
+                function hideMenu()
+                    {
+                    navLinks.style.right = "-200px";
+                    bars.style.display = "block";
+                }
+            </script>
+        </body>
+    </html>
