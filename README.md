@@ -5,6 +5,6 @@ New ideas and contributions are welcome
 
 
 # Issues
-405 Not Allowed Status Code error caused by a bug in the [.form.php](./form.php) file.
+405 Not Allowed Status Code error caused by a bug in the [form.php](./form.php) file.
 
 Don't worry the issue will be fixed soon.
