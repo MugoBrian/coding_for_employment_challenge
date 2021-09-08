@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'mikanmuchiri@gmail.com';
+$email_from = 'https://github.com/MugoBrian.github.io/faidikaselfhelpgroup';
 
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
